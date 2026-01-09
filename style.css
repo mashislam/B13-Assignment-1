@@ -73,3 +73,81 @@ ul li {
   border: 1px solid #30b868;
   background-color: #30b868;
 }
+
+/* Header Area */
+
+header {
+  padding: 10px 0;
+}
+
+nav ul li a {
+  font-weight: 500;
+  color: black;
+}
+
+nav ul {
+  gap: 30px;
+}
+
+header .button-primary:hover {
+  border: 1px solid #30b868;
+  color: #30b868;
+}
+
+/* Hero Area */
+.hero {
+  height: 600px;
+  background-image: url(./assets/hero-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero__content {
+  width: 50%;
+  text-align: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.hero__badge {
+  background-color: white;
+  color: #30b868;
+  padding: 6px 12px;
+  border-radius: 15px;
+  gap: 10px;
+  width: fit-content;
+}
+
+.hero__badge-dot {
+  width: 14px;
+  height: 14px;
+  background-color: #4fe68e;
+  border-radius: 50%;
+}
+
+.hero__badge-dot i {
+  font-size: 6px;
+}
+
+.hero__badge p {
+  color: #30b868;
+}
+
+.hero__content h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+}
+
+.hero__content h1 span {
+  color: #30b868;
+}
+
+.hero__content p {
+  color: white;
+  line-height: 30px;
+}
+
+.hero__buttons {
+  gap: 16px;
+}
